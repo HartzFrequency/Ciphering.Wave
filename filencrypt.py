@@ -246,8 +246,8 @@ def contact():
 
     # Create a Discord embed with contact information, subject, and message
     embed = DiscordEmbed(title="Contact Filencrypt", color="03b2f8")
-    embed.add_embed_field(name="Moyen de contact", value=contactway, inline=False)
-    embed.add_embed_field(name="Sujet", value=subject, inline=False)
+    embed.add_embed_field(name="Contact method", value=contactway, inline=False)
+    embed.add_embed_field(name="Subjet", value=subject, inline=False)
     embed.add_embed_field(name="Message", value=message, inline=False)
 
     # Set up a proxy for the Discord webhook (if needed)
